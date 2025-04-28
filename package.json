@@ -1,0 +1,39 @@
+{
+	"name": "@jfabello/mongodb-utils",
+	"version": "0.1.0",
+	"description": "MongoDB utilities for Node.js.",
+	"keywords": [
+		"mongodb",
+		"utilities",
+		"convert",
+		"bson",
+		"types"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "Juan F. Abello",
+		"email": "juan@jfabello.com"
+	},
+	"type": "module",
+	"main": "src/mongodb-utils.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jfabello/mongodb-utils.git"
+	},
+	"scripts": {
+		"test": "node --experimental-vm-modules ./node_modules/.bin/jest --watchAll --coverage"
+	},
+	"dependencies": {
+		"mongodb": "^6.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.0.0",
+		"@jest/globals": "^29.0.0",
+		"eslint": "^9.0.0",
+		"globals": "^16.0.0",
+		"jest": "^29.0.0"
+	},
+	"engines": {
+		"node": ">=20"
+	}
+}
